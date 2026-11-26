@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Разрешения главного окна NEXOR CLIP. Диалоги и открытие ссылок вызываются только из Rust, поэтому их JS-разрешения не выдаются.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

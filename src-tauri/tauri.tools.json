@@ -1,0 +1,15 @@
+{
+  "bundle": {
+    "resources": {
+      "tools/": "tools/"
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "languages": ["Russian", "English"],
+        "compression": "lzma"
+      },
+      "webviewInstallMode": { "type": "embedBootstrapper" }
+    }
+  }
+}
